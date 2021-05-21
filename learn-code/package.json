@@ -1,7 +1,7 @@
 {
-  "name": "express-todolist",
+  "name": "learn-code",
   "version": "1.0.0",
-  "description": "用express简单实现一个todolist",
+  "description": "node学习的代码记录",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
