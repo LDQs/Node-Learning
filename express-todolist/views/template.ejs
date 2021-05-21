@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模板引擎测试页面</title>
+</head>
+<body>
+  <%- include('partials/header.ejs') -%>
+  <h1>模板引擎测试页面</h1>
+  <div>
+    <div>下面的内容是通过模板引擎传入渲染的</div>
+    <h2>hobbies</h2>
+    <ul>
+      <% data.hobbies.forEach((item) => { %>
+        <li>
+          <%= item %>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+</html>
