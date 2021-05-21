@@ -2,7 +2,7 @@
   "name": "express-todolist",
   "version": "1.0.0",
   "description": "用express实现一个简单的todolist来学习node",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
