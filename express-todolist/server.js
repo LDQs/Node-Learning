@@ -1,6 +1,12 @@
 var express = require('express');
-
 var app = express();
+var indexRouter = require('./routers/index');
+var usersRouter = require('./routers/users');
+
+// 使用路由中间件的方式来处理请求
+app.use('/index', indexRouter);
+app.use('/users', usersRouter);
+
 // 指定使用的模板引擎
 app.set('view engine', 'ejs');
 
